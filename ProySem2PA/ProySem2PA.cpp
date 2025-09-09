@@ -16,10 +16,25 @@ public:
     int diasEnfermo;
     string gravedad;
     bool estadoVida;
+	virtual ~Animal() {}
 };
 
 class Ave : public Animal {
-
+public:
+    Ave(int id, string tipo, int comidaDiaria, int probabilidadCrias, int probabilidadEnfermar, float precio)
+    {
+        this->id = id;
+        this->tipo = tipo;
+        this->comidaDiaria = comidaDiaria;
+        this->probabilidadCrias = probabilidadCrias;
+        this->probabilidadEnfermar = probabilidadEnfermar;
+        this->precio = precio;
+        this->estadoAlimentacion = 0;
+        this->estado = true;
+        this->diasEnfermo = 0;
+        this->gravedad = "Leve";
+        this->estadoVida = true;
+	}
 };
 
 class Mamifero : public Animal {
@@ -61,7 +76,7 @@ public:
     void generarHabitats(int cantidadAGenerar, Habitat* habitats) {
         int* generados = new int[cantidadAGenerar]();
         int aleatorio;
-
+        //Arreglar
         for (int i = 0; i < cantidadAGenerar; i++) {
             bool repetido;
             do {
@@ -127,6 +142,14 @@ int main()
 
     Habitat* habitats = new Habitat[numHabitat];
     zoologico.generarHabitats(numHabitat, habitats);
+	cout << "Habitats generados: " << endl;
+    for (int i = 0; i < numHabitat; i++) {
+        cout << "ID: " << habitats[i].id << ", Tipo: " << habitats[i].tipo << ", Animales Permitidos: ";
+        for (int a = 0; a < habitats[i].permitidos.size() - 1; a++) {
+            cout << habitats[i].permitidos[a] << ", ";
+        }
+        cout << habitats[i].permitidos[habitats[i].permitidos.size() - 1] << endl;
+	}
 
     while (true) {
         cout << "Numero de animales (maximo de animales iniciales 15): " << endl;

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dario\\source\\repos\\ProySem2PA\\",
+  "WorkspaceRootPath": "C:\\Users\\ruben\\OneDrive\\Documentos\\proy1Sem2PA\\Proyecto1S2PrograAv\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{222A1096-0C0D-44B1-82A3-5429F8AF08BA}|ProySem2PA\\ProySem2PA.vcxproj|C:\\Users\\Dario\\source\\repos\\ProySem2PA\\ProySem2PA\\ProySem2PA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{222A1096-0C0D-44B1-82A3-5429F8AF08BA}|ProySem2PA\\ProySem2PA.vcxproj|C:\\Users\\ruben\\OneDrive\\Documentos\\proy1Sem2PA\\Proyecto1S2PrograAv\\ProySem2PA\\ProySem2PA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{222A1096-0C0D-44B1-82A3-5429F8AF08BA}|ProySem2PA\\ProySem2PA.vcxproj|solutionrelative:ProySem2PA\\ProySem2PA.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProySem2PA.cpp",
-              "DocumentMoniker": "C:\\Users\\Dario\\source\\repos\\ProySem2PA\\ProySem2PA\\ProySem2PA.cpp",
+              "DocumentMoniker": "C:\\Users\\ruben\\OneDrive\\Documentos\\proy1Sem2PA\\Proyecto1S2PrograAv\\ProySem2PA\\ProySem2PA.cpp",
               "RelativeDocumentMoniker": "ProySem2PA\\ProySem2PA.cpp",
-              "ToolTip": "C:\\Users\\Dario\\source\\repos\\ProySem2PA\\ProySem2PA\\ProySem2PA.cpp",
+              "ToolTip": "C:\\Users\\ruben\\OneDrive\\Documentos\\proy1Sem2PA\\Proyecto1S2PrograAv\\ProySem2PA\\ProySem2PA.cpp",
               "RelativeToolTip": "ProySem2PA\\ProySem2PA.cpp",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAJUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-08T01:37:59.031Z",
               "EditorCaption": ""
